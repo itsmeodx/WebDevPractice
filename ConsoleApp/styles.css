@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+}
+
+.App * {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: rgb(30, 30, 30);
+}
+
+.consoleHistory {
+	flex-grow: 1;
+	overflow-y: auto;
+}
+
+.historyInput, .historyOutput {
+	width: 100%;
+	white-space: pre-wrap;
+	word-break: break-word;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+
+.historyInput:hover, .historyOutput:hover {
+	background: rgba(255, 255, 255, 0.1);
+	transition: background 0.3s;
+}
+
+.historyInput {
+	color: #cecece;
+	font-weight: bold;
+}
+
+.historyOutput {
+	color: #ffd900;
+}
+
+.consoleInput {
+	flex-shrink: 0;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 16px;
+	color: #ffffff;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.05);
+	transition: background 0.3s;
+}
+
+.consoleInput::placeholder {
+	color: #888888;
+}
+
+.consoleInput:focus,
+.consoleInput:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.preview {
+	display: block;
+	padding: 5px;
+	color: #888888;
+	font-size: 14px;
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	outline: none;
+}
