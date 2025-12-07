@@ -1,8 +1,8 @@
-# JavaScript Practice
+# WebDev Practice
 
-Learning JavaScript by actually building stuff instead of just watching tutorials.
+Learning Web development by actually building stuff instead of just watching tutorials.
 
-**[Check it out live →](https://itsmeodx.github.io/JavaScriptPractice/)**
+**[Check it out live →](https://itsmeodx.github.io/WebDevPractice/)**
 
 ## What I've Built
 
@@ -12,10 +12,10 @@ Learning JavaScript by actually building stuff instead of just watching tutorial
 
 ## Try It Out
 
-You can [try it live](https://itsmeodx.github.io/JavaScriptPractice/) or run it locally:
+You can [try it live](https://itsmeodx.github.io/WebDevPractice/) or run it locally:
 
 ```bash
-git clone https://github.com/itsmeodx/JavaScriptPractice.git
+git clone https://github.com/itsmeodx/WebDevPractice.git
 ```
 
 ---
